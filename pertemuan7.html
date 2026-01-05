@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan7</title>
+    <link rel="stylesheet" href="pertemuan7.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="" alt="Logo">
+            <span>The Learning Process</span>
+        </div>
+
+        <nav class="nav-links" id="navlinks">
+            <a href="">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" aria-expanded="false"
+                aria-controls="about-menu">About</button>
+                <div class="dropdown-content" id="about-menu">
+                    <a href="">Profil</a>
+                    <a href="">Our Team</a>
+                </div>
+            </div>
+            <a href="">Community</a>
+            <a href="">Project</a>
+            <a href="">Contact</a>
+            <button id="themeToggle" class="theme-toggle" aria-label="Tombol Dark and Light">🌙</button>
+        </nav>
+        <button class="burger" id="burgerBtn" aria-label="Tombol Menu Mobile">☰</button> 
+    </header>
+
+    <main class="home-page__hero" id="home">
+      <div class="hero-content">
+          <h2>Welcome to The Learning Process</h2>
+          <p>Tempat belajar melalui musik, video, dan inspirasi sehari-hari.</p>
+          <div class="cta"><a href="#about">Eksplore Sekarang!</a></div>
+      </div>
+    </main>
+
+    <article class="about-content" id="about">
+        <section class="about-text">
+            <h2>Menginspirasi orang untuk terus belajar lewat musik dan visual yang positif.</h2>
+            <p>Menjadi ruang belajar yang menyenangkan dan penuh makna, di mana setiap suara, gambar, dan ide bisa menjadi jembatan menuju pemahaman baru.</p>
+        </section>
+
+        <figure class="about-image" id="aboutImageContainer">
+            <img src="https://media.istockphoto.com/id/1408703103/id/vektor/konsep-mindset-menyiram-tanaman-dengan-konsep-pola-pikir-pertumbuhan-otak-yang-besar.jpg?s=2048x2048&w=is&k=20&c=vwR7Cv7Tn0Pl-C8lSQgZ6keD2gWq1HpByZ7SLWP0vr8=" 
+            alt="Ilustrasi belajar kreatif" id="aboutImage">
+        </figure>
+    </article>
+
+    <div id="image-modal-backdrop" class="modal-backdrop hidden">
+        <div class="modal-content" id="image-modal-content">
+            <img src="" alt="Gambar Pop Up" id="modalImageElement"> 
+        </div>
+    </div>
+
+    <section class="video-section" id="video">
+            <div class="video-text">
+                <h2>Tonton dan Rasakan Proses Belajar yang Menyenangkan</h2>
+                <p>Melalui video-video inspiratif, kamu bisa belajar dengan cara yang seru, santai, dan penuh makna.</p>
+            </div>
+
+        <div class="hero">
+            <div class="hero-video">
+                <div class="video-overlay"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NA3HiPbdcBg?si=ammr_TKcB-06TZRj" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="hero-text">
+            <h2><b>"4 Langkah Self Improvement Tanpa Drama"</b></h2>  
+                <p>Video ini membahas cara praktis meningkatkan diri secara efektif dan fokus pada tindakan nyata tanpa drama atau alasan berlebihan. 🚀✨</p>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-video">
+                <div class="video-overlay"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WMfRHf5kjsE?si=WqVFV5MM2BDjkAsv" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="hero-text">
+            <h2><b>"Kamu Malas Tapi Harus Produktif? Ini Rahasia Biar Otak Ngegas Lagi!"</b></h2>  
+                <p>Video ini ngebahas cara ngalahin rasa malas dan trik biar otak mau mulai gerak dulu, mood nyusul belakangan. 💪✨</p>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-video">
+                <div class="video-overlay"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1r9BPYQbqGg?si=qhgdzzH0_ojOj0Al" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="hero-text">
+            <h2><b>"Kamu Nggak Bodoh, Cuma Salah Cara Belajar"</b></h2>  
+                <p>Video ini bahas kenapa otak suka “ngeblank” padahal udah belajar lama, plus trik biar hafalan nempel kuat di kepala. 🧠✨</p>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-video">
+                <div class="video-overlay"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1T2gaG5vPk8?si=B95oNkkCpoI_uvbx"
+                 title="YouTube video player" frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="hero-text">
+            <h2><b>"Satu Kesalahan Terbesar Dalam Belajar"</b></h2>  
+                <p>Video ini bahas kenapa belajar jangan cuma hafal doang — tapi harus paham! Semua pelajaran tuh nyambung dan kepake banget di dunia nyata.📚💡</p>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-video">
+                <div class="video-overlay"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UvxBqO_nkis?si=-ShtUA86PJhAd2bA" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="hero-text">
+            <h2><b>"Satu Kesalahan Terbesar Setelah Lulus Sekolah"</b></h2>  
+                <p>Lulus sekolah/ kuliah bukan berarti stop belajar! Justru, ini awal buat upgrade skill dan explore dunia nyata ✨📚💼</p>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="hero-video">
+                <div class="video-overlay"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7wCU7fepq8I?si=04g-JKQRBBnACPA6" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="hero-text">
+            <h2><b>"90% Pekerjaanmu Sebenarnya Tidak Penting"</b></h2>  
+                <p>Dari buku Cal Newport, cara ini bikin kerjaan kamu makin berkualitas, susah ditiru, dan skill auto naik level 💪💼✨</p>
+            </div>
+        </div>    
+    </section>
+
+    <section id="music" class="audio-section" >
+            <h3 class="audio-title-main">🎧 Inspiring Playlist</h3>
+            <p class="audio-subtitle">Temukan musik dan audio yang menenangkan pikiran dan meningkatkan fokusmu.</p>
+        <div class="audio-grid">
+        <!-- Audio 1 -->
+            <div class="audio-item">
+            <img src="foto/md.webp" alt="Relaxing Focus" class="audio-image">
+                <div class="audio-info">
+                    <h4>Foreign</h4>
+                    <audio controls preload="none">
+                    <source src="music/Moavii - Foreign (freetouse.com).mp3" type="audio/mpeg">
+                    Browser Anda tidak mendukung audio.
+                    </audio>
+                </div>
+            </div>
+
+        <!-- Audio 2 -->
+            <div class="audio-item">
+            <img src="foto/md (1).webp" alt="Morning Energy" class="audio-image">
+            <div class="audio-info">
+                <h4>Funky</h4>
+                <audio controls preload="none">
+                <source src="music/Waesto - Funky (freetouse.com).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            </div>
+
+        <!-- Audio 3 -->
+            <div class="audio-item">
+            <img src="foto/md (2).webp" alt="Deep Thinking" class="audio-image">
+            <div class="audio-info">
+                <h4>Found You</h4>
+                <audio controls preload="none">
+                <source src="music/Waesto - Found You (freetouse.com).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            </div>
+
+        <!-- Audio 4 -->
+            <div class="audio-item">
+            <img src="foto/md (3).webp" alt="Peaceful Mind" class="audio-image">
+            <div class="audio-info">
+                <h4>Ocean Vibes</h4>
+                <audio controls preload="none">
+                <source src="music/Waesto - Ocean Vibes (freetouse.com).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            </div>
+
+        <!-- Audio 5 -->
+            <div class="audio-item">
+            <img src="foto/md (5).webp" alt="Motivation Flow" class="audio-image">
+            <div class="audio-info">
+                <h4>Lights</h4>
+                <audio controls preload="none">
+                <source src="music/Walen - Lights (freetouse.com).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            </div>
+
+        <!-- Audio 6 -->
+            <div class="audio-item">
+            <img src="foto/md (6).webp" alt="Calm Focus" class="audio-image">
+            <div class="audio-info">
+                <h4>Oasis</h4>
+                <audio controls preload="none">
+                <source src="music/Walen - Oasis (freetouse.com).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h3>📬 Hubungi Kami</h3>
+        <p>Punya pertanyaan atau saran? Jangan ragu, kirim pesan ke kami!</p>
+
+    <div class="contact-info-container">
+        <div class="contact-item">
+            <span class="icon">📧</span>
+            <p class="label">Email</p>
+            <p class="value">nurulhayati251099@gmail.com</p>
+        </div>
+        
+        <div class="contact-item">
+            <span class="icon">📱</span>
+            <p class="label">WhatsApp</p>
+            <p class="value">+62 823-6378-5834</p>
+        </div>
+
+        <div class="contact-item">
+            <span class="icon">📸</span>
+            <p class="label">Instagram</p>
+            <p class="value">nrlhyti_10</p>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        Copyright 2025 Universitas Royal - DWL3A  | Made with ❤️ 
+    </footer>
+
+    <div id="modal-alert" class="modal-backdrop hidden">
+        <div class="modal-content">
+        <p>Selamat Datang di web The Learning Process</p>
+        <button id="tombol-tutup">Tutup</button>
+    </div>
+    </div>
+
+      <!-- Modal untuk video pop-up -->
+    <div id="video-modal-backdrop" class="video-modal-backdrop hidden">
+    <div class="video-modal-content" id="video-modal-content">
+        <iframe id="modalVideoFrame" src="" 
+        title="Video Popup" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
